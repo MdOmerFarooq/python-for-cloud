@@ -39,7 +39,7 @@ print()
 # Assignment operators
 total = 10
 print(total)
-total += 5
+total += 5  
 print(total)
 total -= 3
 print(total)
