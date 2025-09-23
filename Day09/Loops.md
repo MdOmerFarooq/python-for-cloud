@@ -62,3 +62,56 @@ while count < 5:
 ```
 
 The "while" loop continues to execute as long as the "count" is less than 5. The "count" variable is incremented in each iteration.
+
+
+# Loop Control Statements 
+
+Loop control statements are used to modify the behavior of loops, providing greater control and flexibility during iteration. There are two primary loop control statements i.e "break" and "continue."
+
+## `break` 
+
+The "break" statement is used to exit the loop prematurely. It can be applied to both "for" and "while" loops, allowing us to terminate the loop when a particular condition is met.
+
+**Example:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+for number in numbers:
+    if number == 3:
+        break
+    print(number)
+```
+
+**Output:**
+
+```
+1
+2
+```
+
+In this example, the loop stops when it encounters the number 3.
+
+## `continue` 
+
+The "continue" statement is used to skip the current iteration of the loop and proceed to the next one. It can be used in both "for" and "while" loops, enabling you to bypass certain iterations based on a condition.
+
+**Example:**
+
+```python
+numbers = [1, 2, 3, 4, 5]
+for number in numbers:
+    if number == 3:
+        continue
+    print(number)
+```
+
+**Output:**
+
+```
+1
+2
+4
+5
+```
+
+In this example, the loop skips the iteration where the number is 3 and continues with the next iteration.
