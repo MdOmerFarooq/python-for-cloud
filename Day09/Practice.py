@@ -11,3 +11,4 @@ for line in log_file:
    if "ERROR" in line:
        print(line)
 
+# the loop iterates through the "log_file" list and prints lines containing the word "ERROR."
