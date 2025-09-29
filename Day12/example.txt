@@ -1,0 +1,10 @@
+Adding 0 line in this file from script
+Adding 1 line in this file from script
+Adding 2 line in this file from script
+Adding 3 line in this file from script
+Adding 4 line in this file from script
+Adding 5 line in this file from script
+Adding 6 line in this file from script
+Adding 7 line in this file from script
+Adding 8 line in this file from script
+Adding 9 line in this file from script
