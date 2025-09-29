@@ -12,3 +12,12 @@ try :
             print(line.strip())
 except FileNotFoundError :
     print('unable to read the file check the file name again')
+
+try :
+    with open('example.txt' , 'r') as reading_file :
+        lines = reading_file.readlines()
+        for line in lines:
+            if '1' in line:
+                print(f'1 is peresent in the above text file')
+except FileNotFoundError :
+    print('unable to read the file check the file name again')
