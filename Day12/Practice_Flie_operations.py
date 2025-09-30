@@ -1,9 +1,17 @@
+# Script to open the file and write 10 lines to it and print the lines in new line
+
+# opening file as write mode to write
 try :
     with open("example.txt" , 'w') as file :
         for i in range(10) :
             file.write(f'Adding {i} line in this file from script\n')
+
+# if file is not found try will return a error which should print below
+
 except FileNotFoundError:
     print("Seems like file Doesn't exists try again or enter correct filename")
+
+# Reading the file to print it
 
 try :
     with open('example.txt' , 'r') as reading_file :
