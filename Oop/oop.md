@@ -13,7 +13,6 @@ class Student:
 s1 = Student( )   # must be created out of class
 print( s1.name ) 
 ```
-
 ## _ _init_ _ Function
 
 All classes have a function called __init__(), which is always executed when the object is being
@@ -27,7 +26,7 @@ class Student:
 s1 = Student( “karan” )
 print( s1.name )
 ``` 
-*The self parameter is a reference to the current
+Note -- > The self parameter is a reference to the current
 instance of the class, and is used to access variables
 that belongs to the class.
 
